@@ -1,0 +1,248 @@
+@media (max-width: 1145px) {
+  
+  .bottle__dot--1 {
+    left: 480px;
+  }
+  .bottle__dot--2 {
+    left: 520px;
+  }
+  .bottle__dot--3 {
+    left: 380px;
+  }
+  .subsection__content {
+    max-width: 320px;
+  }
+  .history .subsection__content {
+    margin-left: 10px;
+    }
+}
+@media (max-width: 1100px) {
+  .bottle__dot--1 {
+    left: 450px;
+  }
+  .bottle__dot--2 {
+    left: 500px;
+  }
+  .bottle__dot--3 {
+    left: 350px;
+  }
+}
+@media (max-width: 1050px) {
+  .statistics__item {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .bottle__dot--1 {
+    left: 420px;
+  }
+  .bottle__dot--2 {
+    left: 470px;
+  }
+  .bottle__dot--3 {
+    left: 320px;
+  }
+}
+@media (max-width: 990px) {
+  .subsection__img img {
+    height: 350px;
+  }
+  .bottle__dot--1 {
+    left: 400px;
+  }
+  .bottle__dot--2 {
+    left: 450px;
+  }
+  .bottle__dot--3 {
+    left: 300px;
+  }
+}
+@media (max-width: 950px) {
+  .header__title {
+    font-size: 140px;
+    line-height: 174px;
+    margin-left: 135px;
+  }
+  .statistics__item {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .subsection__img img {
+    height: 300px;
+  }
+  .bottle {
+    display: none;
+  }
+  .footer__inner {
+    flex-wrap: wrap;
+  }
+  .footer__item {
+    flex-basis: 30%;
+    margin-bottom: 35px;
+    margin-left: 40px;
+  }
+}
+@media (max-width: 770px) {
+  .header__title {
+    font-size: 120px;
+    line-height: 144px;
+    margin-left: 80px;
+  }
+  .header__text {
+    font-size: 20px;
+  }
+  .header__inner {
+    flex-direction: column-reverse;
+  }
+  .menu {
+    position: relative;
+  }
+  .mmenu__btn {
+    display: block;
+    width: 40px;
+    cursor: pointer;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+  }
+  .mmenu__btn span {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #8C001A;
+    height: 4px;
+  }
+  .menu__list {
+    display: none;
+    padding-top: 40px;
+    text-align: center;
+    border: none;
+  }
+  .menu__list-link {
+    display: block;
+    transition: all 0s;
+  }
+  
+  .statistics__item {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .subsection__img img {
+    height: 220px;
+  }
+  .gallery__slider {
+    max-width: 500px;
+  }
+}
+@media (max-width: 680px) {
+  .section {
+    flex-direction: column;
+    margin-top: 70px;
+  }
+  .header__title {
+    font-size: 100px;
+    line-height: 114px;
+    margin-left: 60px;
+  }
+  .header__text {
+    font-size: 16px;
+  }
+  .statistics__item {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .subsection {
+    flex-direction: column-reverse;
+    align-items: start;
+  }
+  .subsection__text {
+    text-align: left;
+  }
+  .subsection__title {
+    text-align: left;
+  }
+ 
+  .beaches {
+    flex-direction: column;
+  }
+  .history img {
+    margin-left: 0;
+  }
+  .beaches .subsection__content {
+    margin-left: 0;
+  }
+
+  .subsection__img img {
+    height: 200px;
+  }
+}
+@media (max-width: 600px) {
+  
+  .header__title {
+    font-size: 80px;
+    line-height: 94px;
+    margin-left: 40px;
+  }
+  .header__text {
+    display: none;
+  }
+  .statistics__item {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .gallery__slider {
+    max-width: 400px;
+  }
+  .footer__item {
+
+    margin-bottom: 35px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 505px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .body {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .statistics__inner {
+    flex-wrap: wrap;
+  }
+  .statistics__item {
+    margin-bottom: 30px;
+  }
+  
+  .gallery__slider {
+    max-width: 100%;
+  }
+  .slick-next,
+  .slick-prev {
+    display: none;
+  }
+  .footer__inner {  
+    display: block;
+  }
+.footer__item {
+  width: 100%;
+  padding-right: 0;
+  }
+}
+@media (max-width: 400px) {
+  .section {
+    width: 100%;
+  }
+  .header__title {
+    font-size: 70px;
+    line-height: 84px;
+    margin-left: 15px;
+  }
+  .statistics__inner {
+    display: block;
+  }
+  .subsection__img img {
+    height: 150px;
+  }
+
+}
